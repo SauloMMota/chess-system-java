@@ -23,7 +23,7 @@ public class Program {
 			System.out.println("Target: ");
 			ChessPosition target = UI.readChessPosition(sc);
 			
-			ChessPiece capturedPiece = chessMatch.peformChessMove(source, target);
+			ChessPiece capturedPiece = chessMatch.peformChessMove(source, target); 
 		}
 	}
 }
